@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<objects>
+<!-- ('', 'zport', 'dmd', 'Services', 'WinService', 'serviceclasses', 'TapiSrv') -->
+<object id='/zport/dmd/Services/WinService/serviceclasses/TapiSrv' module='Products.ZenModel.WinServiceClass' class='WinServiceClass'>
+<property id='zendoc' type='string'>
+Telephony
+</property>
+<property type="string" id="name" mode="w" >
+TapiSrv
+</property>
+<property type="lines" id="serviceKeys" mode="w" >
+('TapiSrv',)
+</property>
+<property type="text" id="description" mode="w" >
+Telephony
+</property>
+<property type="int" id="port" mode="w" >
+0
+</property>
+<property type="lines" id="monitoredStartModes" mode="rw" >
+['Auto', 'Manual']
+</property>
+<property visible="True" type="int" id="zFailSeverity" >
+3
+</property>
+<tomany id='instances'>
+<link objid='/zport/dmd/Devices/Server/Microsoft/Windows/devices/i-09d620ed/os/winservices/TapiSrv'/>
+<link objid='/zport/dmd/Devices/Server/Windows/WMI/devices/win2003.class.example.org/os/winservices/TapiSrv'/>
+</tomany>
+</object>
+</objects>
