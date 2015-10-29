@@ -69,4 +69,4 @@ Change History
 
 .. External References Below. Nothing Below This Line Should Be Rendered
 
-.. _Latest Package for Python 2.7: https://github.com/jcurry/ZenPacks.community.WinServices/blob/master/dist/ZenPacks.community.WinServices-1.0.0-py2.7.egg?raw=true
+.. _Latest Package for Python 2.7: https://github.com/ZenossDevGuide/ZenPacks.community.WinServices/blob/master/dist/ZenPacks.community.WinServices-1.0.0-py2.7.egg?raw=true
